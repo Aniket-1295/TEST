@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import AboutUs from "./pages/About";
 import Cats from "./pages/Cats";
 import Dogs from "./pages/Dogs";
-import ContactUs from "./pages/Contact";
+// import ContactUs from "./pages/Contact";
 import { Container } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
@@ -36,7 +36,7 @@ function App() {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/cats" element={<Cats />} />
             <Route path="/dogs" element={<Dogs />} />
-            <Route path="/contact" element={<ContactUs />} />
+            {/* <Route path="/contact" element={<ContactUs />} /> */}
            
           </Routes>
         </Container>

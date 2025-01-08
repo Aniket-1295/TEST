@@ -9,7 +9,7 @@ const Home = () => <Typography variant="h4" align="center">Welcome to the Home P
 const AboutUs = () => <Typography variant="h4" align="center">About Us</Typography>;
 const Cats = () => <Typography variant="h4" align="center">Cats Page</Typography>;
 const Dogs = () => <Typography variant="h4" align="center">Dogs Page</Typography>;
-const ContactUs = () => <Typography variant="h4" align="center">Contact Us</Typography>;
+// const ContactUs = () => <Typography variant="h4" align="center">Contact Us</Typography>;
 
 
   
@@ -29,7 +29,7 @@ const NavBar = () => {
         { label: "About Us", to: "/about" },
         { label: "Cats", to: "/cats" },
         { label: "Dogs", to: "/dogs" },
-        { label: "Contact Us", to: "/contact" },
+        // { label: "Contact Us", to: "/contact" },
       ];
 
 
@@ -40,7 +40,7 @@ const NavBar = () => {
     <AppBar position="static">
     <Toolbar>
       <Typography variant="h6" sx={{ flexGrow: 1 }}>
-        My Website
+      PetShelter
       </Typography>
       {isMobile ? (
         <>
